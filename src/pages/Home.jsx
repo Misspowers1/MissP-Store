@@ -9,21 +9,21 @@ import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
 
 const Container = styled.div`
-  background-color: #fbf0f4;
+	background-color: #fbf0f4;
 `;
 
 const Home = () => {
-  return (
-    <Container>
-      <Announcement />
-      <Navbar />
-      <Slider />
-      <Categories />
-      <Products />
-      <Newsletter />
-      <Footer />
-    </Container>
-  );
+	return (
+		<Container>
+			<Announcement />
+			<Navbar />
+			<Slider />
+			<Categories />
+			<Products />
+			<Newsletter />
+			<Footer />
+		</Container>
+	);
 };
 
 export default Home;
