@@ -10,6 +10,7 @@ import {
 	Mail,
 } from "@material-ui/icons";
 import { mobile } from "../responsive";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
 	display: flex;
@@ -125,7 +126,9 @@ const Footer = () => {
 				<Title>Quick Links</Title>
 				<List>
 					<ListItem>Home</ListItem>
-					<ListItem>Cart</ListItem>
+					<Link to="/cart" style={{ textDecoration: "none" }}>
+						<ListItem>Cart</ListItem>
+					</Link>
 					<ListItem>Man Fashion</ListItem>
 					<ListItem>Women Fashion</ListItem>
 					<ListItem>Accesorries</ListItem>
