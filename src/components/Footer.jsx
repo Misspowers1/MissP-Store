@@ -98,6 +98,8 @@ const Payment = styled.img`
 height: 100px;
 width: 100px
 object-fit: cover;
+
+${mobile({ justifyContent: "center" })}
 `;
 
 const Footer = () => {
