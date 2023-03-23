@@ -84,10 +84,14 @@ const Right = styled.div`
 const Tittle = styled.h3`
 	margin-bottom: 30px;
 	margin-top: 10px;
+
+	${mobile({ marginLeft: "20px" })}
 `;
 
 const ContactItem = styled.div`
 	margin-bottom: 10px;
+
+	${mobile({ marginLeft: "20px" })}
 `;
 
 const Payment = styled.img`
